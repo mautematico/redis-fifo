@@ -26,8 +26,11 @@
     "watch": "npm run build -- --watch",
     "watch:test": "jest --watch"
   },
-  "dependencies": {},
+  "dependencies": {
+    "ioredis": "^4.2.0"
+  },
   "devDependencies": {
+    "@types/ioredis": "^4.0.4",
     "@types/jest": "^23.3.3",
     "@types/node": "^10.11.4",
     "coveralls": "^3.0.2",
